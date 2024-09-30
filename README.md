@@ -1,2 +1,2 @@
 # perf-ror
-Repository for "Perfect Ruby on Rails".
+Repository for "Teach Yourself Ruby on Rails".
