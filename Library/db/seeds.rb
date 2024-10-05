@@ -6,5 +6,9 @@
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
 
-Food.create(name: "ラーメン", description: "中国から伝わった麺が日本流にさまざまにアレンジされています。")
-Food.create(name: "寿司", description: "日本独特の食文化を作り出しています。")
+100.times do |n|
+  Food.create!(
+    name: "パスタ#{n}",
+    description: "パスタ#{n}はイタリア料理の定番です。"
+  )
+end
